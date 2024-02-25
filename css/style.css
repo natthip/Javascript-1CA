@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+  
+
+/* Header elements */
+  .top-header {
+  background-color: #D9D9D9;
+  padding: 15px 5px; 
+ }
+
+ .find-a-store {
+  margin: 0; 
+  font-size: 8px;
+  color: #000000; 
+}
+
+
+/* Navigation styles */
+  .header-container {
+  background-color: #fff; 
+  padding: 10px;
+ }
+
+ nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+ }
+
+ nav ul li {
+  margin-right: 20px; 
+ }
+
+
+ nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 2vw; 
+  }
+
+ nav a:hover {
+  color: #0A3641;
+  }
+
+ nav ul li.logo-container {
+  display: flex;
+  align-items: center;
+ }
+
+ nav ul li.logo-container img {
+  width: 130px;
+  height: 72px;
+  display: block;
+  margin: 0 auto; 
+}
+  
+
+/* Index page */
+ .image-section-text {
+  text-align: right; 
+  margin-bottom: 10px; 
+ }
+
+ .canoe-text {
+    font-weight:lighter;
+    font-style: italic;
+}
+
+
+
+
+
+
+/* Mens page */
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  }
+
+  .content {
+  flex: 0 0 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-right: 50px;
+ }
+
+ .sizes, .jacket-price {
+ font-weight: lighter;
+ font-size: small;
+}
+
+
+/* text and divs */
+ .about-intro-text, .about-text, .mens-intro-text, .image-section-text, .intro-text, .cart-intro-text {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem; 
+  color: #0A3641;
+ }
+
+ .about-intro-text, .mens-intro-text, .cart-intro-text, .cart-page {
+  background-color: #f8f8f8;
+}
+
+
+/* Summary page, Contact page and About page */
+ .summary, .contact {
+    background-color: #2A505A;
+    color: #fff;
+ }
+
+ .contact-info  {
+    display: flex;
+    justify-content: space-between; 
+    margin: 20px; 
+ }
+
+ .opening-hours, .e-mail-info, .chat-info, .summary, .contact, .about-article, .about-intro-text, .mens-intro-text, .cart-intro-text {
+    text-align: center; 
+    flex: 0 0 30%; 
+    margin: 10px; 
+}
+
+
+/* Images */
+.images,
+.raindrop-image,
+.logo-image,
+.about-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%; 
+}
+
+
+/* Search box and button styles */
+  .search-container {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 10px; 
+}
+
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 2px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #D9D9D9;
+}
+
+.search-icon {
+    margin-right: 5px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 3px;
+    font-size: 12px;
+    width: 100px;
+    background-color: #D9D9D9;
+    color: #000000;
+}
+  
+button {
+    background-color: #2A505A;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+
+/* Footer styles */
+  .footer-logo, .logo {
+    max-width: 80px;
+}
+
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 0.9rem; 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 0.8rem; 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 10px; 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content {
+    flex: 0 0 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .content {
+    padding: 15px;
+  }
+}
+
+/* Responsive font size adjustments */
+@media only screen and (max-width: 768px) {
+  .image-section-text,
+  .header-container {
+    font-size: 1.2rem; 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .image-section-text,
+  .header-container {
+    font-size: 1rem; 
+  }
+}
